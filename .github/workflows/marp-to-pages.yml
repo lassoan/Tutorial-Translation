@@ -23,26 +23,26 @@ jobs:
       - name: Marp Build (README)
         uses: docker://marpteam/marp-cli:v1.7.0
         with:
-          args: README.md -o build/index.html
+          args: README.md -o build/index.html --allow-local-files
         env:
           MARP_USER: root:root
 
       - name: Marp Build (README.pdf)
         uses: docker://marpteam/marp-cli:v1.7.0
         with:
-          args: README.md -o build/README.pdf
+          args: README.md -o build/README.pdf --allow-local-files
         env:
           MARP_USER: root:root
 
       - name: Marp Build (README.pptx)
         uses: docker://marpteam/marp-cli:v1.7.0
         with:
-          args: README.md -o build/README.pptx
+          args: README.md -o build/README.pptx --allow-local-files
         env:
           MARP_USER: root:root
 
       - name: Marp Build (docs folder)
-        uses: docker://marpteam/marp-cli:v1.7.0
+        uses: docker://marpteam/marp-cli:v1.7.0 --allow-local-files
         with:
           args: -I docs/ -o build/docs/
         env:
