@@ -4,6 +4,8 @@ theme: uncover
 paginate: true
 style: |
     section{
+      width: 1280px;
+      height: 960px;
       justify-content: flex-start;
     }
 ---
