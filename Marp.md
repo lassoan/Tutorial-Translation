@@ -38,6 +38,8 @@ style: |
 ---
 # Load Sample MRI Data
 ![height:12cm](images/Slide-6.png)
+Where does this go
+##### How about this?
 
 ---
 # Adjust window/level
