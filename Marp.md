@@ -214,3 +214,14 @@ style: |
 # Thanks for participating!
 ![height:12cm](images/Slide-50.png)
 
+---
+# Testing gradual list
+* one 
+* two
+* three
+
+1) one
+2) two
+3) three
+
+
