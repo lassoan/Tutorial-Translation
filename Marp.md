@@ -1,226 +1,241 @@
 ---
 marp: true
-theme: uncover
 paginate: true
 style: |
-    section{
-      width: 35cm;
-      height: 25cm;
-      justify-content: flex-start;
-    }
+  .columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
 ---
 
-
 ![3d slicer logo](images/3D-Slicer-logo.jpg)
+
 # 3D Slicer
 ## Data Loading and <br> Visualization Tutorial
 
 ---
-<!-- footer: ![height:1.5cm](images/tinyPerk.jpg) ![height:1.5cm](images/tinyEbantica.jpg) "Laboratory for Percutaneous Surgery – Copyright © Queen’s University, 2022" ![height:1.5cm](images/tinySlicer.jpg) -->
-
 # Tutorial Dataset
 
-### Please download the following datasets:
+### Please download the following dataset:
 <https://github.com/PerkLab/PerkLabBootcamp/raw/master/Data/VisualizationTutorial_HeadScene.mrb>
 
 ---
 # Main user interface
-![height:12cm](images/Slide-3.jpg)
+![](images/Slide-3.jpg)
 
 ---
 # Load Sample MRI Data
-![height:12cm](images/Slide-4.jpg)
+![](images/Slide-4.jpg)
 
 ---
 # Load Sample MRI Data
-![height:12cm](images/Slide-5.jpg)
+![](images/Slide-5.jpg)
 
 ---
 # Load Sample MRI Data
-![height:12cm](images/Slide-6.png)
-Where does this go
-##### How about this?
+
+![h:480](images/Slide-6.png)
+
+The axial, sagittal, and coronal views automatically show the loaded volume.
 
 ---
 # Adjust window/level
-![height:12cm](images/Slide-7.png)
+
+![h:480](images/Slide-7.png)
 
 ---
 # Adjust window/level
-![height:12cm](images/Slide-8.png)
+
+<div class="columns">
+<div>
+
+![](images/Slide-8.png)
+
+</div>
+<div>
+
+![](images/Slide-8.png)
+
+Adjust window/level (brightness/contrast) using the left mouse button on a slice view.
+
+</div>
+</div>
 
 ---
 ### Switch back to view/transform mode
-![height:12cm](images/Slide-9.jpg)
+![](images/Slide-9.jpg)
 
 ---
 # Maximize view
-![height:12cm](images/Slide-10.jpg)
+![](images/Slide-10.jpg)
+
+Click on the maximize view button.
 
 ---
 # Slice view options
-![height:12cm](images/Slide-11.png)
+![](images/Slide-11.png)
 
 ---
 # Slice view options
-![height:12cm](images/Slide-12.jpg)
+![](images/Slide-12.jpg)
 
 ---
 # Show ruler
-![height:12cm](images/Slide-13.jpg)
+![](images/Slide-13.jpg)
 
 ---
 # Rotate to volume plane
-![height:12cm](images/Slide-14.jpg)
+![](images/Slide-14.jpg)
 
 ---
 ## Switch to conventional layout
-![height:12cm](images/Slide-15.jpg)
+![](images/Slide-15.jpg)
 
 ---
 # Link views
-![height:12cm](images/Slide-16.jpg)
+![](images/Slide-16.jpg)
 
 ---
 # Show slices in 3D
-![height:12cm](images/Slide-17.jpg)
+![](images/Slide-17.jpg)
 
 ---
 # Show slices in 3D
-![height:12cm](images/Slide-18.png)
+![](images/Slide-18.png)
 
 ---
 # Navigating the 3D view
-![height:12cm](images/Slide-19.png)
+![](images/Slide-19.png)
 
 ---
 # Close the scene
-![height:12cm](images/Slide-20.jpg)
+![](images/Slide-20.jpg)
 
 ---
 ### Part 2: 3D visualization of surface models of the brain
-![height:12cm](images/Slide-21.png)
+![](images/Slide-21.png)
 
 ---
 # Load tutorial scene
-![height:12cm](images/Slide-22.jpg)
+![](images/Slide-22.jpg)
 
 ---
 # Center view
-![height:12cm](images/Slide-23.jpg)
+![](images/Slide-23.jpg)
 
 ---
 # Explore loaded data
-![height:12cm](images/Slide-24.jpg)
+![](images/Slide-24.jpg)
 
 ---
 # Explore loaded data
-![height:12cm](images/Slide-25.jpg)
+![](images/Slide-25.jpg)
 
 ---
 # Foreground image
-![height:12cm](images/Slide-26.jpg)
+![](images/Slide-26.jpg)
 
 ---
 # Create folder
-![height:12cm](images/Slide-27.jpg)
+![](images/Slide-27.jpg)
 
 ---
 # Context menu actions
-![height:12cm](images/Slide-28.png)
+![](images/Slide-28.png)
 
 ---
 # Rename folder
-![height:12cm](images/Slide-29.jpg)
+![](images/Slide-29.jpg)
 
 ---
 # Select multiple nodes
-![height:12cm](images/Slide-30.jpg)
+![](images/Slide-30.jpg)
 
 ---
 # Move nodes to folder
-![height:12cm](images/Slide-31.jpg)
+![](images/Slide-31.jpg)
 
 ---
 # Hide all nodes in folder
-![height:12cm](images/Slide-32.jpg)
+![](images/Slide-32.jpg)
 
 ---
 # Volume rendering
-![height:12cm](images/Slide-33.jpg)
+![](images/Slide-33.jpg)
 
 ---
 # Display options
-![height:12cm](images/Slide-34.jpg)
+![](images/Slide-34.jpg)
 
 ---
 # Adjust volume rendering
-![height:12cm](images/Slide-35.jpg)
+![](images/Slide-35.jpg)
 
 ---
 # Show models again
-![height:12cm](images/Slide-36.jpg)
+![](images/Slide-36.jpg)
 
 ---
 # Show models again
-![height:12cm](images/Slide-37.jpg)
+![](images/Slide-37.jpg)
 
 ---
 # Change skull model opacity
-![height:12cm](images/Slide-38.jpg)
+![](images/Slide-38.jpg)
 
 ---
 # Show axial slice in 3D
-![height:12cm](images/Slide-39.jpg)
+![](images/Slide-39.jpg)
 
 ---
 # Show coronal slice in 3D
-![height:12cm](images/Slide-40.jpg)
+![](images/Slide-40.jpg)
 
 ---
 # Model clipping
-![height:12cm](images/Slide-41.jpg)
+![](images/Slide-41.jpg)
 
 ---
 # Model clipping
-![height:12cm](images/Slide-42.jpg)
+![](images/Slide-42.jpg)
 
 
 ---
 # Model clipping
-![height:12cm](images/Slide-43.jpg)
+![](images/Slide-43.jpg)
 
 ---
 # Model clipping
-![height:12cm](images/Slide-44.jpg)
+![](images/Slide-44.jpg)
 
 ---
 # 3D display options
-![height:12cm](images/Slide-45.jpg)
+![](images/Slide-45.jpg)
 
 ---
 # Save the scene
-![height:12cm](images/Slide-46.jpg)
+![](images/Slide-46.jpg)
 
 ---
 # Save the scene
-![height:12cm](images/Slide-47.jpg)
+![](images/Slide-47.jpg)
 
 ---
 # Close the scene
-![height:12cm](images/Slide-48.jpg)
+![](images/Slide-48.jpg)
 
 ---
 # Load your recently saved scene
-![height:12cm](images/Slide-49.jpg)
+![](images/Slide-49.jpg)
 
 ---
 # Thanks for participating!
-![height:12cm](images/Slide-50.png)
+![](images/Slide-50.png)
 
 ---
 # Testing gradual list
-* one 
+* one
 * two
 * three
 
@@ -228,4 +243,22 @@ Where does this go
 2) two
 3) three
 
+---
+# Multi columns in Marp slide
 
+<div class="columns">
+<div>
+
+## Column 1
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eveniet, corporis commodi vitae accusamus obcaecati dolor corrupti eaque id numquam officia velit sapiente incidunt dolores provident laboriosam praesentium nobis culpa. asdf asd fads fads fadsf asdf asdfa sdfas dfadsf adsf adsf asdf asdfadsf adsf adsf adsf asdfads fadsf asdf  af
+
+</div>
+<div>
+
+## Column 2
+
+Tempore ad exercitationem necessitatibus nulla, optio distinctio illo non similique? Laborum dolor odio, ipsam incidunt corrupti quia nemo quo exercitationem adipisci quidem nesciunt deserunt repellendus inventore deleniti reprehenderit at earum.
+
+</div>
+</div>
